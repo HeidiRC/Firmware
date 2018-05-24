@@ -1,5 +1,6 @@
 #! /usr/bin/env bash
 
+
 # check ubuntu version
 # instructions for 16.04, 18.04
 # otherwise warn and point to docker?
@@ -47,4 +48,5 @@ sudo apt-get -y --quiet --no-install-recommends install \
 	xsltproc \
 	zip
 
+pip install --user wheel
 pip install --user -r requirements.txt
