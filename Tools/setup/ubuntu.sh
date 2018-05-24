@@ -3,6 +3,8 @@
 # check ubuntu version
 # instructions for 16.04, 18.04
 # otherwise warn and point to docker?
+
+
 UBUNTU_RELEASE=`lsb_release -rs`
 
 if [[ "${UBUNTU_RELEASE}" == "14.04" ]]
@@ -38,6 +40,7 @@ sudo apt-get -y --quiet --no-install-recommends install \
 	python-gencpp \
 	python-genmsg \
 	python-pip \
+	python-setuptools \
 	rsync \
 	unzip \
 	wget \
